@@ -1,0 +1,272 @@
+{
+  "LiveEvents": {
+    "CrazyJohnnyShow": {
+      "RevivePrice": {
+        "Id": "Bucks",
+        "Amount": 5,
+        "ContentType": "Bucks",
+        "ClaimHash": null
+      },
+      "EventId": "CrazyJohnnyShow",
+      "LiveEventType": "ProgressionChallenge",
+      "EventDurationInMinutes": 2160,
+      "EventEndTimestamp": null,
+      "Priority": 1,
+      "AssetBundleName": "CrazyJohnnyShow",
+      "Steps": {
+        "0": {
+          "Rewards": [
+            {
+              "Id": "Coins",
+              "Amount": 500,
+              "ContentType": "Coins",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Diamonds",
+              "Amount": 1,
+              "ContentType": "Diamonds",
+              "ClaimHash": null
+            }
+          ],
+          "SeasonPassRewards": [
+            {
+              "Id": "Coins",
+              "Amount": 100,
+              "ContentType": "Coins",
+              "ClaimHash": null
+            }
+          ],
+          "ProgressToComplete": 1
+        },
+        "1": {
+          "Rewards": [
+            {
+              "Id": "36_EventOpponent1",
+              "Amount": 1,
+              "ContentType": "ProfilePicture",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Bucks",
+              "Amount": 10,
+              "ContentType": "Bucks",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Diamonds",
+              "Amount": 2,
+              "ContentType": "Diamonds",
+              "ClaimHash": null
+            }
+          ],
+          "SeasonPassRewards": [
+            {
+              "Id": "Coins",
+              "Amount": 200,
+              "ContentType": "Coins",
+              "ClaimHash": null
+            }
+          ],
+          "ProgressToComplete": 2
+        },
+        "2": {
+          "Rewards": [
+            {
+              "Id": "07_CJSTrace",
+              "Amount": 1,
+              "ContentType": "Trace",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Diamonds",
+              "Amount": 4,
+              "ContentType": "Diamonds",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Coins",
+              "Amount": 3000,
+              "ContentType": "Coins",
+              "ClaimHash": null
+            }
+          ],
+          "SeasonPassRewards": [
+            {
+              "Id": "Coins",
+              "Amount": 300,
+              "ContentType": "Coins",
+              "ClaimHash": null
+            }
+          ],
+          "ProgressToComplete": 4
+        }
+      },
+      "StepRanges": [1, 3],
+      "LiveEventStartTrigger": {
+        "StartTriggerValue": 6,
+        "EventStartTimestamp": null,
+        "Type": "MatchesPlayed"
+      },
+      "IsEventReplayable": false,
+      "ProgressAction": "WinStreak"
+    },
+    "CollectEvent": {
+      "EventId": "CollectEvent",
+      "LiveEventType": "Collect",
+      "EventDurationInMinutes": null,
+      "EventEndTimestamp": "2025-10-30T13:34:53Z",
+      "Priority": 2,
+      "AssetBundleName": "CollectEvent_02",
+      "LeaderboardId": "CollectEvent_50",
+      "LeaderboardVersionId": "20251021124122490967210",
+      "LeaderboardBucketSize": 50,
+      "ShouldResetLeaderboard": false,
+      "Rewards": {
+        "Rewards": {
+          "1": [
+            {
+              "Id": "16_Trace",
+              "Amount": 1,
+              "ContentType": "Trace",
+              "ClaimHash": null
+            },
+            {
+              "Id": "47_Avatar",
+              "Amount": 1,
+              "ContentType": "ProfilePicture",
+              "ClaimHash": null
+            },
+            {
+              "Id": "38_Frame",
+              "Amount": 1,
+              "ContentType": "Frame",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Diamonds",
+              "Amount": 20,
+              "ContentType": "Diamonds",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Coins",
+              "Amount": 30000,
+              "ContentType": "Coins",
+              "ClaimHash": null
+            }
+          ],
+          "2": [
+            {
+              "Id": "47_Avatar",
+              "Amount": 1,
+              "ContentType": "ProfilePicture",
+              "ClaimHash": null
+            },
+            {
+              "Id": "38_Frame",
+              "Amount": 1,
+              "ContentType": "Frame",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Diamonds",
+              "Amount": 15,
+              "ContentType": "Diamonds",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Coins",
+              "Amount": 15000,
+              "ContentType": "Coins",
+              "ClaimHash": null
+            }
+          ],
+          "3": [
+            {
+              "Id": "38_Frame",
+              "Amount": 1,
+              "ContentType": "Frame",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Diamonds",
+              "Amount": 10,
+              "ContentType": "Diamonds",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Coins",
+              "Amount": 10000,
+              "ContentType": "Coins",
+              "ClaimHash": null
+            }
+          ],
+          "10": [
+            {
+              "Id": "38_Frame",
+              "Amount": 1,
+              "ContentType": "Frame",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Diamonds",
+              "Amount": 5,
+              "ContentType": "Diamonds",
+              "ClaimHash": null
+            },
+            {
+              "Id": "Coins",
+              "Amount": 6000,
+              "ContentType": "Coins",
+              "ClaimHash": null
+            }
+          ],
+          "20": [
+            {
+              "Id": "Coins",
+              "Amount": 1000,
+              "ContentType": "Coins",
+              "ClaimHash": null
+            }
+          ],
+          "50": [
+            {
+              "Id": "Coins",
+              "Amount": 200,
+              "ContentType": "Coins",
+              "ClaimHash": null
+            }
+          ]
+        }
+      },
+      "CollectEventClubModels": {
+        "01_Hooligan": { "Multiplier": 1, "MaxCollectPerMatch": 7 },
+        "02_BeatStreet": { "Multiplier": 1, "MaxCollectPerMatch": 7 },
+        "03_Omega": { "Multiplier": 1, "MaxCollectPerMatch": 7 },
+        "04_NeonHustle": { "Multiplier": 2, "MaxCollectPerMatch": 7 },
+        "05_JadeDragon": { "Multiplier": 2, "MaxCollectPerMatch": 7 },
+        "06_PilotsDen": { "Multiplier": 3, "MaxCollectPerMatch": 7 },
+        "07_LuckyIrish": { "Multiplier": 3, "MaxCollectPerMatch": 7 },
+        "08_Aristocrat": { "Multiplier": 3, "MaxCollectPerMatch": 7 },
+        "09_ElNino": { "Multiplier": 3, "MaxCollectPerMatch": 7 },
+        "01_Club": { "Multiplier": 1, "MaxCollectPerMatch": 7 },
+        "02_Club": { "Multiplier": 1, "MaxCollectPerMatch": 7 },
+        "03_Club": { "Multiplier": 1, "MaxCollectPerMatch": 7 },
+        "04_Club": { "Multiplier": 2, "MaxCollectPerMatch": 7 },
+        "05_Club": { "Multiplier": 2, "MaxCollectPerMatch": 7 },
+        "06_Club": { "Multiplier": 3, "MaxCollectPerMatch": 7 },
+        "07_Club": { "Multiplier": 3, "MaxCollectPerMatch": 7 },
+        "08_Club": { "Multiplier": 3, "MaxCollectPerMatch": 7 },
+        "09_Club": { "Multiplier": 3, "MaxCollectPerMatch": 7 }
+      },
+      "LiveEventStartTrigger": {
+        "StartTriggerValue": 0,
+        "EventStartTimestamp": "2025-09-04T03:05:00Z",
+        "Type": "StartDate"
+      },
+      "IsEventReplayable": false,
+      "ProgressAction": "WinStreak"
+    }
+  }
+}

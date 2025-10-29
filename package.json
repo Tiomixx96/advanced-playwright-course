@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test1": "npx playwright test tests/test-2.spec.ts",
+    "test1:debug-logs": "cross-env DEBUG=* DEBUG_FILE=logs1.txt npx playwright test tests/test-2.spec.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.56.0",
-    "@types/node": "^24.8.0"
+    "@types/node": "^24.8.0",
+    "cross-env": "^10.1.0"
   }
 }
